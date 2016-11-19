@@ -1,7 +1,6 @@
 #! /usr/bin/env python
 import sys
 
-
 # pep8 & google python style
 
 
@@ -14,17 +13,6 @@ class Node(object):
         self.value = value
         self.path = [self.idx]  # [].append(self.idx)
         pass
-
-    def check(self, arr):
-        pass
-
-    # build binary tree based on 'arr'
-    def build(self, node):
-        pass
-
-    def findpath(self, start, end, arr):
-        pass
-
     pass
 
 
@@ -57,7 +45,6 @@ def findpath(arr, start, end):
     else:
         print 'path not exist'
     pass
-
 
 if __name__ == '__main__':
     level = [1, 2, 3, 4, 5]
