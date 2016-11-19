@@ -1,2 +1,2 @@
 # gistsnippets
-gist snippets backup 
+gist snippets 
